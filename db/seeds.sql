@@ -17,13 +17,13 @@ INSERT INTO role (title, salary, department_id)
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
     VALUES  
-        ("Jane", "Doe", 1),
+        ("Jane", "Doe", 1, NOT NULL),
         ("Lily", "Right", 2, 1),
-        ("Ashley", "Can", 3),
+        ("Ashley", "Can", 3, NOT NULL),
         ("Matt", "Stevens", 4, 3),
-        ("Kyle", "Bern", 5),
+        ("Kyle", "Bern", 5, NOT NULL),
         ("Lila", "Reud", 6, 5),
-        ("Martha", "Cloud", 7),
+        ("Martha", "Cloud", 7, NOT NULL),
         ("Ryan", "Crow", 8, 7);
 
     
