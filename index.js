@@ -235,7 +235,7 @@ const addRole = (add_title, add_salary, add_departID) => {
 }
 
 
-
+// add employee function
 const employMenu = () => {
     inquirer.prompt([{
         type: "prompt",
@@ -257,8 +257,9 @@ const employMenu = () => {
         name: "add_manID",
         message: "Add manager ID"
     }   
-    }]
+    ]
         .then(({add_firstN, add_lastN, add_roleID, add_manID}) => {
-            
-        }
-}
+
+        })
+
+)}; 
